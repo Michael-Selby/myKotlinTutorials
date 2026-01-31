@@ -1,11 +1,8 @@
-fun main(){
-    println("enter yout name")
-    var name=readLine()!!
-    if(name=="Michael"){
-        println("Hello Michael")
+fun main() {
+    val num = readLine()!!.toInt()
+    if (num % 2 == 0) {
+        println("Even")
+    } else {
+        println("Odd")
     }
-    else{
-        println("Hello type the guessed name")
-    }
-
 }
